@@ -1,7 +1,5 @@
 {
   "build_entry_point": "docs",
-  "need_generate_pdf": false,
-  "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
       "docset_name": "kimizhuDocset0921084704",
@@ -19,8 +17,14 @@
     }
   ],
   "notification_subscribers": [],
-  "branches_to_filter": [],
+  "sync_notification_subscribers": [],
+  "branches_to_filter": [
+    "master"
+  ],
   "skip_source_output_uploading": false,
+  "contribution_branch_mappings": {
+    "master-sxs": "master"
+  },
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -35,5 +39,8 @@
       "Intellisense"
     ]
   },
-  "need_generate_pdf_url_template": false
+  "need_generate_pdf_url_template": false,
+  "targets": {},
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false
 }
